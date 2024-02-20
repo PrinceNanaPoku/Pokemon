@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pokemon/static/css/main.36c6bb8a.css",
-    "main.js": "/Pokemon/static/js/main.411b1de6.js",
+    "main.js": "/Pokemon/static/js/main.5a3eeba0.js",
     "static/media/bulbasaur.png": "/Pokemon/static/media/bulbasaur.e724f39b92b385e9a391.png",
     "static/media/grass.avif": "/Pokemon/static/media/grass.6adb9fff4a73d55891b0.avif",
     "static/media/poison.jpg": "/Pokemon/static/media/poison.13665794b013f4333ac2.jpg",
@@ -9,10 +9,10 @@
     "static/media/venusaur2.jpg": "/Pokemon/static/media/venusaur2.aa9a9961f896293d1765.jpg",
     "index.html": "/Pokemon/index.html",
     "main.36c6bb8a.css.map": "/Pokemon/static/css/main.36c6bb8a.css.map",
-    "main.411b1de6.js.map": "/Pokemon/static/js/main.411b1de6.js.map"
+    "main.5a3eeba0.js.map": "/Pokemon/static/js/main.5a3eeba0.js.map"
   },
   "entrypoints": [
     "static/css/main.36c6bb8a.css",
-    "static/js/main.411b1de6.js"
+    "static/js/main.5a3eeba0.js"
   ]
 }
