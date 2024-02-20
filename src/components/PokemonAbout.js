@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fa0, fa1, faCircle } from "@fortawesome/free-solid-svg-icons";
+
 const PokemonAbout = () => {
   return (
     <div>

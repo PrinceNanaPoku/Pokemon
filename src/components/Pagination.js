@@ -1,5 +1,6 @@
-
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
 
 function Pagination({ currentPage, totalPages, onPageChange }) {
   return (
@@ -29,7 +30,9 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
         >
           3
         </button>
-        <span>...</span>
+        <span>
+          <FontAwesomeIcon icon={faEllipsis} />
+        </span>
         <button
           onClick={() =>
             onPageChange(
