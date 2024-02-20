@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import PokemonList from "./components/PokemonList";
 import "./index.css";
 import ListView from "./components/ListView";
 import DetailView from "./components/DetailView";

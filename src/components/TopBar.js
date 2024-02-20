@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import bulbasaur from "./images/bulbasaur.png";
+import Home from "./Home";
+import { Link } from "react-router-dom";
 
 function TopBar() {
   const [themeViewOpen, setThemeViewOpen] = useState(false);
