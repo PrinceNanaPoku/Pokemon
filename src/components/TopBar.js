@@ -1,9 +1,9 @@
 import React from "react";
-import ThemeView from "./components/ThemeView";
+import ThemeView from "./ThemeView";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import bulbasaur from "./components/images/bulbasaur.png";
+import bulbasaur from "./images/bulbasaur.png";
 
 function TopBar() {
   const [themeViewOpen, setThemeViewOpen] = useState(false);

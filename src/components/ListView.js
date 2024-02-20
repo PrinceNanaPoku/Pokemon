@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import Pagination from "./Pagination";
 import PageSizeSelector from "./PageSizeSelector";
-import TopBar from "../TopBar";
+import TopBar from "./TopBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import DetailView from "./DetailView";

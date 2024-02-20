@@ -18,7 +18,7 @@ function DetailView({ onClose }) {
   return (
     <div>
       {/* Grey Cover */}
-      <div className="fixed top-0 left-0 w-2/3 h-full bg-gray-700 bg-opacity-50 z-50"></div>
+      <div className="fixed top-0 left-0 w-2/3 h-full bg-gray-500 bg-opacity-40 z-50"></div>
 
       {/* Main Content */}
       <div className="fixed top-0 right-0 h-full w-1/3 bg-white shadow-md">
@@ -36,7 +36,7 @@ function DetailView({ onClose }) {
             <img
               src={ivysaur}
               alt="Pokemon image"
-              className="w-64 h-64 mx-auto rounded-full mb-4"
+              className="w-40 h-40 mx-auto rounded-full mb-4"
             />
           </div>
         </div>
@@ -69,7 +69,7 @@ function DetailView({ onClose }) {
           )}
 
           {/* Tabs */}
-          <div className="flex justify-between items-center bg-gray-300 absolute left-20 w-1/2 p-1 rounded-2xl mb-0">
+          <div className="flex justify-center items-center bg-gray-300 absolute left-20 w-1/2 p-1 rounded-2xl mt-2">
             <button
               className={`py-1 px-4 rounded-2xl text-xs ${
                 activeTab === "about" ? "bg-white" : ""
