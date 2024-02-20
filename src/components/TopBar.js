@@ -17,8 +17,9 @@ function TopBar() {
   return (
     <div className="flex justify-between items-center bg-gray-200 p-4">
       {/* Pokemon Logo */}
-      <img src={bulbasaur} alt="Pokemon Logo" className="h-10 mx-2" />
-
+      <Link to="/">
+        <img src={bulbasaur} alt="Pokemon Logo" className="h-10 mx-2" />
+      </Link>
       {/* Title */}
       <h1 className="text-xs font-bold">
         <span className="text-pink-600">Poké</span>
